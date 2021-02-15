@@ -1,0 +1,38 @@
+<!--PreethiKumarasamy_COMP229Assignment1-->
+<%- include ../partials/header.ejs %>
+
+<%- include ../partials/main_nav.ejs %>
+
+
+  <body>
+  
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-5"> Contact Details </h1>
+      <p> <i class="fas fa-female"></i> Name : Preethi Kumarasamy</p>
+      <p> <i class="fas fa-location-arrow"></i> Location : Chennai,India </p>
+      <p><i class="fas fa-phone"></i> Contact Number : +91 9600616520</p>
+      <p><i class="fas fa-at"></i>Mail ID : preethikumarasamy@gmail.com</p>
+       <!--User Information-->
+      <h3> Enter Details  (allows only one email address):</h3>
+      <form action="/action_page.php">
+      <label for="email">Enter your email:</label>
+      <input type="email" id="email" name="email"><br>
+      <label for="First Name">Enter your First Name:</label>
+      <input type="FirstName" id="Firstname" name="Firstname"><br>
+      <label for="Last Name">Enter your Last Name:</label>
+      <input type="LastName" id="Lastname" name="Lastname"><br>
+      <label for="Contact Number">Enter your Contact number:</label>
+      <input type="Contact number" id="Contact number" name="Contact number"><br>
+      <label for="Message">Enter your Last Name:</label>
+      <input type="Message" id="Message" name="Message"><br>
+      </form>
+      <a class="nav-link " href="/home"></i> Submit! </a> 
+     </div>
+
+    
+
+  </main>
+ 
+<%- include ../partials/bottom_nav.ejs %> 
+<%- include ../partials/footer.ejs %>
