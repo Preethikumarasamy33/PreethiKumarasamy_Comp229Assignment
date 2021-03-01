@@ -1,8 +1,9 @@
 var express = require('express');
 var router = express.Router();
 router.get('/', function(req, res, next) {
-  res.render('pages/home', { title: 'Home' });
+res.render('pages/loginpage', { title: 'Login' });
 });
+
 /* GET home page. */
 router.get('/home', function(req, res, next) {
   res.render('pages/home', { title: 'Home' });

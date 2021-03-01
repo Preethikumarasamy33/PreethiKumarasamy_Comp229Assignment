@@ -37,8 +37,16 @@
           <% } else  { %>
             <li class="nav-item">
               <% } %> 
-          <a class="nav-link " href="/services"><i class="fas fa-laptop-code"></i></i>Services page </a>
+          <a class="nav-link " href="/services"><i class="fas fa-laptop-code"></i>Services page </a>
         </li>
+        <% if (title == "Business-Contacts") { %>
+          <li class="nav-item active">
+          <% } else  { %>
+            <li class="nav-item">
+              <% } %> 
+          <a class="nav-link " href="/contact-list"><i class="fas fa-book-open"></i>Contacts </a>
+        </li>
+
 
         <% if (title == "Contact Me") { %>
           <li class="nav-item active">
